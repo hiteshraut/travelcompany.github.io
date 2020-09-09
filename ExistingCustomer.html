@@ -1,0 +1,552 @@
+   			
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Website</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/set1.css" />
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <style type="text/css">
+          .scroll-header{
+            padding: 20px 0px 0px;
+            background: #efefef;
+            margin-bottom: 10px;
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+            top: 80px;
+          }
+          #sticky {
+              padding: 0.5ex;
+              width: 100%;
+              height:300px;
+              background-color: #333;
+              color: #fff;
+              font-size: 2em;
+              border-radius: 0.5ex;
+              float:right;
+          }
+          #sticky.stick {
+              position: fixed;
+              top: 0;
+              width: 100%;
+              z-index: 10;
+              border-radius: 0 0 0.5em 0.5em;
+          }
+    </style>
+
+</head>
+
+<body>
+  <section class="upper-header">
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+            <ul>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> travelcompany@gmail.com</li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> XXX XXXX XXXX</li>
+              <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalCart">Launch modal</button> -->
+              <li><a href="#" data-toggle="modal" data-target="#loginpopup" ><i class="fa fa-user-o" aria-hidden="true"></i> My Account</a> 
+               <!-- <a href="#" data-toggle="modal" data-target="#signuppopup">Signup</a> --></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navbar -->
+  	<nav class="navbar fixed-top navbar-expand-lg navbar-light scrolling-navbar">
+	    <div class="container">
+
+	      <!--  Brand -->
+	      <div class="">
+	        <a class="navbar-brand" href="index.html">
+	          <strong>LOGO</strong>
+	        </a>
+	      </div>
+
+	      <!-- Collapse -->
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+	        aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="navbar-toggler-icon"></span>
+	      </button>
+
+	      <!-- Links -->
+	      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+
+	        <!-- Left -->
+	        <ul class="navbar-nav float-xs-right">
+	          <li class="nav-item">
+	            <a class="nav-link" href="index.html">Home
+	              <span class="sr-only">(current)</span>
+	            </a>
+	          </li>
+	          
+	          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Destination
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="aboutCountry.html">India</a>
+              <a class="dropdown-item" href="aboutCountry.html">USA</a>
+              <a class="dropdown-item" href="aboutCountry.html">Europe</a>
+            </div>
+          </li>
+
+         
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Travel Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="">Family</a>
+              <a class="dropdown-item" href="#">Friends</a>
+              <a class="dropdown-item" href="#">Honeymoons</a>
+              <a class="dropdown-item" href="#">Weekends</a>
+            </div>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="PackageDetail.html">Package</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tour-page.html" >Itinerary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#!" onclick="return false"  target="_blank">Reviews</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="ContactForm.html">Contact Us</a>
+          </li>
+        </ul>
+
+	        <!-- Right -->
+	        <!--   <ul class="navbar-nav nav-flex-icons">
+	          <li class="nav-item">
+	            <a href="https://www.facebook.com/" class="nav-link" target="_blank">
+	              <i class="fa fa-facebook"></i>
+	            </a>
+	          </li>
+	          <li class="nav-item">
+	            <a href="https://twitter.com/" class="nav-link" target="_blank">
+	              <i class="fa fa-twitter"></i>
+	            </a>
+	          </li>
+	        
+	        </ul> -->
+
+	      </div>
+	    </div>
+  	</nav>
+
+  <!--Main layout-->
+  <main>
+    <div class="container detailspage" style="margin-top:75px;">
+    	<section class="card">
+		    <div class="row">
+		        <div class="col-md-8">
+		        	<div class="row">
+		        		<div class="col-md-12">
+		        			<h5>CUSTOMER SERVICES CONTACT FORM (for existing customers only)</h5>
+		        		</div>
+		        		<div class="clearfix"></div>
+		        		<div class="col-md-6">
+		        			<label class="checkbox">
+	                            <input id="check2" type="checkbox" onchange="console.log('changed');">
+	                            <span></span>
+	                           	General Enquiry Form	
+	                        </label>
+		        		</div>
+		        		<div class="col-md-6">
+		        			<label class="checkbox">
+	                            <input id="check1" type="checkbox" onchange="console.log('changed');">
+	                            <span></span>
+	                          	Booking Amendment Form	
+	                        </label>
+		        		</div>
+		        		<div class="clearfix"></div>
+				       <div class="col-sm-6">
+				        <label>First Name</label>
+				        <input class="form-control" type="text" placeholder="First Name">
+				       </div>
+				       <div class="col-sm-6">
+				        <label>Last Name</label>
+				        <input class="form-control" type="text" placeholder="Last Name">
+				       </div>
+				       <div class="col-sm-6">
+	                    <label>Date of Birth</label>
+	                    <input class="form-control" type="date" placeholder="DD-MM-YYYY">
+	                   </div>
+				      
+				        <div class="col-sm-6 select-input">
+		                    <label>Mobile Number</label>
+		                    <select class="form-control">
+		                      <option>+91</option>
+		                      <option>+90</option>
+		                      <option>+11.</option>
+		                      <option>+121</option>
+		                    </select>
+		                    <input class="form-control" type="number" placeholder="1234567890">
+	                  	</div>
+	                  	<div class="col-sm-12">
+					        <label>Email id</label>
+					        <input class="form-control" type="text" placeholder="Enter email">
+					    </div>
+
+					    <div class="col-sm-12">
+					        <label>Booking Reference No.</label>
+					        <input class="form-control" type="text" placeholder="Booking Reference No">
+					    </div>
+				       	<div class="clearfix"></div>
+				        <div class="col-sm-12">
+		                    <label>Provide details here <small>(Character limit: 1000)</small></label>
+		                    <textarea rows="3" >
+		                      
+		                    </textarea>
+		                </div>
+		              
+	                    <div class="col-sm-12">
+	                        <label class="checkbox">
+	                            <input id="check2" type="checkbox" onchange="console.log('changed');">
+	                            <span></span>
+	                            Subscribe to our deals and promotions
+	                        </label>
+	                        <label class="checkbox">
+	                            <input id="check1" type="checkbox" onchange="console.log('changed');">
+	                            <span></span>
+	                             I agree to the <a href="#">terms and conditions</a> and have reviewed the <a href="#"> policies</a> and <a href="#"> Cancellation Rules</a>.
+	                        </label>
+	                    </div>
+	                    <div class="col-md-12">
+	                        <button type="button" class="btn btn-success waves-effect waves-light float-right">Send</button>
+	                    </div>
+				    </div>
+		        </div>
+		      
+		        <div class="col-md-4">
+		        	<h5>Call Us</h5>
+		        	<h4>XXX XXXX XXXX</h4>
+
+					<h6><a href="ContactForm.html" type="button" class="btn btn-info"> New Customers CLICK HERE	</a></h6>	
+						
+					<h6>New Customers please contact here for you enquiry regarding tour, information, pricing, cusomisation etc.</h6>
+		        </div>
+		    </div>
+
+	        <hr class="my-5">
+	        <div class="row address" >
+	    		<div class="col-md-4">
+	    			<div class="add-inner-div">
+		    			<h3><i class="fa fa-map-marker" aria-hidden="true"></i></h3>
+		    			<h5>AUSTRALIA</h5>
+		    			<h6>Address: Brisbane Office	</h6>
+		    			<h6>Phone: 1800-000-000</h6>
+		    			<h6>Email:	info@_____.com</h6>
+	    			</div>
+	    		</div>
+
+	    		<div class="col-md-4">
+	    			<div class="add-inner-div">
+		    			<h3><i class="fa fa-map-marker" aria-hidden="true"></i></h3>
+		    			<h5>INDIA		</h5>
+		    				<h6>Address: NCR Office	</h6>
+		    			<h6>Phone: 1800-000-000</h6>
+		    			<h6>Email:	info@_____.com</h6>
+	    			</div>
+	    		</div>
+
+	    		<div class="col-md-4">
+		    		<div class="add-inner-div">
+		    			<h3><i class="fa fa-map-marker" aria-hidden="true"></i></h3>
+		    			<h5>UK</h5>
+		    			<h6>Address: London Office	</h6>
+		    			<h6>Phone: 1800-000-000</h6>
+		    			<h6>Email:	info@_____.com</h6>
+		    		</div>
+	    		</div>
+
+	    	</div>
+	    </section>
+
+	   
+    </div>
+  </main>
+
+   
+  <!--Main layout-->
+
+  <!--Footer-->
+  	<footer id="footer" class="page-footer font-small mt-4 wow fadeIn">
+    	<div class="container">
+ 
+        <div class="row">
+            <div class="col-sm-2">
+              <ul>
+                <li> 
+                  <a href="https://www.facebook.com/" target="_blank">
+                    Site Map
+                  </a>
+                </li>
+                 <li> 
+                  <a href="https://www.facebook.com/" target="_blank">
+                    Privacy Policy
+                  </a>
+                </li>
+                 <li> 
+                  <a href="https://www.facebook.com/" target="_blank">
+                    Terms & Condition
+                  </a>
+                </li>
+                <li> 
+                  <a href="https://www.facebook.com/" target="_blank">
+                    Pre Departure Info
+                  </a>
+                </li>
+                 <li> 
+                  <a href="https://www.facebook.com/" target="_blank">
+                    FAQ
+                  </a>
+                </li>
+                 <li> 
+                  <a href="https://www.facebook.com/" target="_blank">
+                    Blog
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+	   			<h5>AUSTRALIA</h5>
+				<h6>Address: Brisbane Office	</h6>
+				<h6>Phone: 1800-000-000</h6>
+				<h6>Email:	info@_____.com</h6>
+            </div>
+            <div class="col-md-3">
+	   			
+	  			<h5>INDIA		</h5>
+				<h6>Address: NCR Office	</h6>
+				<h6>Phone: 1800-000-000</h6>
+				<h6>Email:	info@_____.com</h6>
+            </div>
+            <div class="col-md-4">
+                <h6>E-Newsletter Signup</h6>
+                <h6>Stay updated on the hottest deals and latest travel info.</h6>
+                <button class="btn btn-outline-white btn-sm"> Sign Up</button>
+            </div>
+
+        </div>
+    		<hr class="my-4">
+      		<!-- Social icons -->
+		  	<div class="pb-4 text-center">
+			    <a href="https://www.facebook.com/" target="_blank">
+			      <i class="fa fa-facebook mr-3"></i>
+			    </a>
+
+			    <a href="https://twitter.com/" target="_blank">
+			      <i class="fa fa-twitter mr-3"></i>
+			    </a>
+
+			    <a href="https://www.youtube.com/watch?v=7MUISDJ5ZZ4" target="_blank">
+			      <i class="fa fa-instagram mr-3"></i>
+			    </a>
+		  	</div>
+      		<!-- Social icons -->
+     	</div>
+	    <!--Copyright-->
+	    <div class="footer-copyright py-3 text-center">
+	      © 2018 Copyright:
+	      <a href="#" target="_blank"> Abc.com </a>
+	    </div>
+	    <!--/.Copyright-->
+  	</footer>
+  	<!--/.Footer-->
+
+
+  <!-- Modal: modalCart -->
+  <div class="modal fade" id="loginpopup" tabindex="-1" role="dialog" aria-labelledby="loginpopup" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+          <!--Header-->
+        <div class="modal-header">
+          <p class="heading lead">Sign in
+          </p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+              <form class="text-center" style="color: #757575;">
+                <!-- Email -->
+                <div class="md-form">
+                  <input type="email" id="materialLoginFormEmail" class="form-control">
+                  <label for="materialLoginFormEmail">E-mail</label>
+                </div>
+
+                <!-- Password -->
+                <div class="md-form">
+                  <input type="password" id="materialLoginFormPassword" class="form-control">
+                  <label for="materialLoginFormPassword">Password</label>
+                </div>
+
+                <div class="d-flex justify-content-around">
+                  <div>
+                    <!-- Remember me -->
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="materialLoginFormRemember">
+                      <label class="form-check-label" for="materialLoginFormRemember">Remember me</label>
+                    </div>
+                  </div>
+                  <div>
+                    <!-- Forgot password -->
+                    <a href="">Forgot password?</a>
+                  </div>
+                </div>
+
+                <!-- Sign in button -->
+                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign in</button>
+
+                <!-- Register -->
+                <p>Not a member?
+                  <a href="#" data-toggle="modal" data-target="#signuppopup">Register</a>
+                </p>
+
+                <!-- Social login -->
+                <!-- <p>or sign in with:</p>
+                <a type="button" class="btn-floating btn-fb btn-sm">
+                  <i class="fa fa-facebook"></i>
+                </a>
+                <a type="button" class="btn-floating btn-tw btn-sm">
+                  <i class="fa fa-twitter"></i>
+                </a>
+                <a type="button" class="btn-floating btn-li btn-sm">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+                <a type="button" class="btn-floating btn-git btn-sm">
+                  <i class="fa fa-github"></i>
+                </a>-->
+              </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal: modalCart -->
+
+  <div class="modal fade" id="signuppopup" tabindex="-1" role="dialog" aria-labelledby="signuppopup" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="heading lead">Sign up
+          </p>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" class="white-text">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          
+            <!-- Form -->
+            <form class="text-center" style="color: #757575;">
+
+                <div class="form-row">
+                    <div class="col">
+                        <!-- First name -->
+                        <div class="md-form">
+                            <input type="text" id="materialRegisterFormFirstName" class="form-control">
+                            <label for="materialRegisterFormFirstName">First name</label>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <!-- Last name -->
+                        <div class="md-form">
+                            <input type="email" id="materialRegisterFormLastName" class="form-control">
+                            <label for="materialRegisterFormLastName">Last name</label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- E-mail -->
+                <div class="md-form mt-0">
+                    <input type="email" id="materialRegisterFormEmail" class="form-control">
+                    <label for="materialRegisterFormEmail">E-mail</label>
+                </div>
+
+                <!-- Password -->
+                <div class="md-form">
+                    <input type="password" id="materialRegisterFormPassword" class="form-control" aria-describedby="materialRegisterFormPasswordHelpBlock">
+                    <label for="materialRegisterFormPassword">Password</label>
+                </div>
+
+                <!-- Phone number -->
+                <div class="md-form">
+                    <input type="password" id="materialRegisterFormPhone" class="form-control" aria-describedby="materialRegisterFormPhoneHelpBlock">
+                    <label for="materialRegisterFormPhone">Phone number</label>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="materialRegisterFormNewsletter">
+                    <label class="form-check-label" for="materialRegisterFormNewsletter">Subscribe to our newsletter</label>
+                </div>
+
+                <!-- Sign up button -->
+                <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Sign up</button>
+
+                <!-- Social register -->
+               <!--  <p>or sign up with:</p>
+
+                <a type="button" class="btn-floating btn-fb btn-sm">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a type="button" class="btn-floating btn-tw btn-sm">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a type="button" class="btn-floating btn-li btn-sm">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+                <a type="button" class="btn-floating btn-git btn-sm">
+                    <i class="fa fa-github"></i>
+                </a> -->
+
+                <hr>
+
+                <!-- Terms of service -->
+                <p>By clicking
+                    <em>Sign up</em> you agree to our
+                    <a href="" target="_blank">terms of service</a>  </p>
+
+            </form>
+            <!-- Form -->
+        </div>  
+      </div>
+    </div>
+  </div>
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+      <!-- Initializations -->
+    <script type="text/javascript">
+      // Animations initialization
+      new WOW().init();
+    </script>
+
+    
+</body>
+
+</html>

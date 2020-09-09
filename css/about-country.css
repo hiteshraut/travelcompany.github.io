@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+          .md-form textarea.md-textarea {
+              padding: 0rem 0;
+          }
+          html, body {
+            height: 100%;
+            padding: 0;
+            margin: 0;
+          }
+          #header {
+            background: url('../img/Incredible-India-Republic.jpg') no-repeat center top;
+            background-size: cover;
+            position: fixed;
+            height: 90%;
+            bottom: 10%;
+            right: 0;
+            left: 0;
+            top: 0;
+          }
+          #header .center {
+            background: rgba(0, 0, 0, 0.25);
+            text-align: center;
+            position: absolute;
+            color: #FFFFFF;
+            color: #F5F7FA;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+          }
+          #header .center .middle {
+            position: absolute;
+            margin-top: -8em;
+            right: 0;
+            left: 0;
+            top: 65%;
+          }
+          #header .center .middle h1 {
+         /*   font-family: "Lusitana";*/
+            font-weight: normal;
+            line-height: 1em;
+            font-size: 5em;
+            margin: 0;
+          }
+          #header .center .middle span {
+            line-height: 5em;
+            font-size: 1em;
+          }
+
+          #pageHr {
+            background: #FFFFFF;
+            position: relative;
+            height: 5px;
+            display: block;
+            right: 0px;
+            left: 0px;
+            top: 80%;
+            z-index: 1;
+          }
+          #pageHr > i {
+            margin: -25px;
+            border: 5px solid #FFFFFF;
+            height: 40px;
+            width: 40px;
+            background: #48CFAD;
+            position: absolute;
+            display: block;
+            left: 50%;
+            top: 50%;
+            -moz-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+          }
+          #pageHr > i > i {
+            line-height: 36.8px;
+            font-size: 20px;
+            height: 40px;
+            width: 40px;
+            text-align: center;
+            position: absolute;
+            color: #FFFFFF;
+            display: block;
+            -moz-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+            -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+          }
+
+          #page {
+           
+            background: #fff;
+             background-image: url('../img/Dimension.png');
+            position: relative;
+            height: auto;
+            top: 80%;
+            padding: 50px 0px 0px;
+          }
+
+
+      .img-about {
+          padding-top: 0;
+          padding-bottom: 0px;
+          background-color: #ffffff;
+          margin-bottom: 60px;
+      }
+      section {
+          background-position: 50% 50%;
+          background-repeat: no-repeat;
+          background-size: cover;
+      }
+      section, .container, .container-fluid {
+          position: relative;
+          word-wrap: break-word;
+      }
+
+      .img-about .image-element {
+          display: flex;
+          justify-content: center;
+      }
+      .img-about .row-element, .img-about .image-element {
+          padding: 0;
+      }
+      .img-about .image-element img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center center;
+      }
+      .img-about .text-content {
+          padding: 3rem;
+      }
+      .img-about .mbr-title {
+          color: #e96188;
+      }
+      .display-2 {
+          font-family: 'Poppins', sans-serif;
+          font-size: 2rem;
+      }
+
+      .about-page .main:nth-child(even) {
+          flex-direction: row-reverse;
+      }
